@@ -17,6 +17,9 @@ import org.apache.log4j.Logger;
 @WebService
 public class MiServicioWeb {
     
+    /**
+    * Campo LOG de tipo Logger.
+    */
     protected static final Logger LOG = Logger.getLogger(MiServicioWeb.class);
 
     @WebMethod
